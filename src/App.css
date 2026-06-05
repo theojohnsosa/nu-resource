@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Switzer-Regular';
+  src: url('../public/fonts/Switzer-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Switzer-Medium';
+  src: url('../public/fonts/Switzer-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Switzer-Semibold';
+  src: url('../public/fonts/Switzer-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Switzer-Bold';
+  src: url('../public/fonts/Switzer-Bold.otf') format('opentype');
+}
