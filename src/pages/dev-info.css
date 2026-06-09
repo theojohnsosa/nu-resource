@@ -1,0 +1,111 @@
+.dev-info {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  width: 44%;
+}
+
+.main-info h1 {
+  font-family: 'Switzer-Bold', sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-family: 'Instrument-Italic', sans-serif;
+  font-weight: normal;
+}
+
+.main-info p {
+  font-family: 'Switzer-Regular', sans-serif;
+  margin-bottom: 30px;
+}
+
+.main-info p span {
+  font-family: 'Switzer-Semibold', sans-serif;
+}
+
+.dev-profiles {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.dev-profiles h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.dev-profiles-btn-group {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  font-family: 'Switzer-Semibold', sans-serif;
+  gap: 8px;
+}
+
+.dev-profiles-btn {
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.dev-profiles-btn:nth-of-type(1) {
+  background-color: #006EF5;
+  transition: all 0.13s ease-in;
+}
+
+.dev-profiles-btn:nth-of-type(1):hover {
+  background-color: #044492;
+}
+
+.dev-profiles-btn:nth-of-type(2) {
+  background-color: #303030;
+  transition: all 0.13s ease-in;
+}
+
+.dev-profiles-btn:nth-of-type(2):hover {
+  background-color: #4f4f4f;
+}
+
+.dev-profiles-btn:nth-of-type(3) {
+  background-color: #DA1010;
+  transition: all 0.13s ease-in;
+}
+
+.dev-profiles-btn:nth-of-type(3):hover {
+  background-color: #a90c0c;
+}
+
+.dev-profiles-btn:nth-of-type(4) {
+  background-color: #176ACC;
+  transition: all 0.13s ease-in;
+}
+
+.dev-profiles-btn:nth-of-type(4):hover {
+  background-color: #044492;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image img {
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
