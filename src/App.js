@@ -1,15 +1,16 @@
 import './App.css';
 
 import PageLayout from './components/layout/pagelayout.js'
-import { BrowserRouter } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import DevInfo from './pages/dev-info.jsx'
 
 function App() {
   return (
-    <BrowserRouter>
-      <PageLayout>
-
-      </PageLayout>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<PageLayout />}>
+        <Route path="dev-info" element={<DevInfo />} />
+      </Route>
+    </Routes>
   )
 }
 

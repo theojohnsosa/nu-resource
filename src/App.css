@@ -23,3 +23,13 @@
   font-family: 'Switzer-Bold';
   src: url('../public/fonts/Switzer-Bold.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'Instrument-Regular';
+  src: url('../public/fonts/InstrumentSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Instrument-Italic';
+  src: url('../public/fonts/InstrumentSerif-Italic.ttf') format('truetype');
+}
