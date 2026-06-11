@@ -1,5 +1,6 @@
-import React from 'react'
 import './dev-info.css'
+
+import React from 'react'
 
 import me from '../assets/images/me.svg'
 import globe from '../assets/icons/globe.svg'
