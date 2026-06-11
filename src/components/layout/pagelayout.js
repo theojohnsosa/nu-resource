@@ -1,7 +1,8 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
-import Header from './header.js'
+import Header from './header.jsx'
+import Footer from './footer.jsx'
 
 const PageLayout = ({children}) => {
   return (
@@ -9,6 +10,7 @@ const PageLayout = ({children}) => {
       <Header />
       <Outlet />
       <main>{children}</main>
+      <Footer />
     </>
   )
 }
